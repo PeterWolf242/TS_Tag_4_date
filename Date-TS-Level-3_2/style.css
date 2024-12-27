@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_black: #0c0c0c;
+  --color_white: #ffffff;
+  --color_cyan: #00ffff;
+}
+
+body {
+  background-color: var(--color_black);
+  color: var(--color_white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type='number'] {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+#result {
+  display: block;
+  background-color: var(--color_white);
+  color: var(--color_black);
+  width: 80px;
+  margin: 1rem 0 0 0;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color_cyan);
+  color: black;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px var(--color_cyan), 0 0 20px var(--color_cyan);
+  border: none;
+  outline: none;
+}
